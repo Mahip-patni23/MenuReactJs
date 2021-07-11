@@ -149,6 +149,7 @@ main {
 
   .menu-item{
     flex-direction: column;
+    margin: 2rem;
   }
 
   .item-image{
