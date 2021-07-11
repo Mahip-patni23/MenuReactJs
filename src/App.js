@@ -10,7 +10,7 @@ const allCategories = ["all", ...new Set(data.map((item) => {
 
 function App() {
   const [items, setItems] = useState(data);
-  const [categories, setCategories] = useState(allCategories);
+  const categories = allCategories;
 
   const displaySection = (category) => {
     if(category==="all")
